@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.5" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6" pages="10">
   <diagram name="图4.7 医生接诊活动图" id="hgD6r3cLdnuOVa-4e0JS">
     <mxGraphModel dx="2377" dy="1277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -1250,6 +1250,441 @@
         </mxCell>
         <mxCell id="p2_e30" edge="1" parent="1" source="p2_report" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Helvetica;fontSize=24;" target="p2_r15" value="n">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图4.11 预约挂号界面设计图" id="2i7nlLfJjkYm44tnUWSn">
+    <mxGraphModel dx="1324" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=20;" value="预约挂号界面设计（顾客端）" vertex="1">
+          <mxGeometry height="60" width="900" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="760" width="1360" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=12;" value="LOGO | 爱维宠物医院管理系统" vertex="1">
+          <mxGeometry height="60" width="1360" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="顾客首页" vertex="1">
+          <mxGeometry height="40" width="150" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="宠物档案" vertex="1">
+          <mxGeometry height="40" width="150" x="100" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" value="预约挂号（当前）" vertex="1">
+          <mxGeometry height="40" width="150" x="100" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="订单查询" vertex="1">
+          <mxGeometry height="40" width="150" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="报告查询" vertex="1">
+          <mxGeometry height="40" width="150" x="100" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="个人中心" vertex="1">
+          <mxGeometry height="40" width="150" x="100" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;" value="筛选条件：宠物 [____]  科室 [____]  日期 [____]  [查询] [重置]" vertex="1">
+          <mxGeometry height="60" width="1130" x="280" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=8;" value="可预约医生列表" vertex="1">
+          <mxGeometry height="40" width="770" x="280" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="医生A | 内科 | 可预约时段：09:00-10:00, 10:30-11:30" vertex="1">
+          <mxGeometry height="52" width="770" x="280" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="医生B | 外科 | 可预约时段：14:00-15:00, 15:30-16:30" vertex="1">
+          <mxGeometry height="52" width="770" x="280" y="362" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="医生C | 影像科 | 可预约时段：09:30-10:30, 13:30-14:30" vertex="1">
+          <mxGeometry height="52" width="770" x="280" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" value="预约信息填写" vertex="1">
+          <mxGeometry height="40" width="340" x="1070" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="宠物： [__________]" vertex="1">
+          <mxGeometry height="48" width="340" x="1070" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="医生： [__________]" vertex="1">
+          <mxGeometry height="48" width="340" x="1070" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="日期： [____-__-__]" vertex="1">
+          <mxGeometry height="48" width="340" x="1070" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="时段： [__________]" vertex="1">
+          <mxGeometry height="48" width="340" x="1070" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="备注： [____________________]" vertex="1">
+          <mxGeometry height="48" width="340" x="1070" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" value="[提交预约]    [取消]" vertex="1">
+          <mxGeometry height="52" width="340" x="1070" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=8;" value="日程总览" vertex="1">
+          <mxGeometry height="40" width="770" x="280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="日期      09:00  10:00  11:00  14:00  15:00  16:00" vertex="1">
+          <mxGeometry height="44" width="770" x="280" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="周一      可约   可约   满约   可约   可约   可约" vertex="1">
+          <mxGeometry height="44" width="770" x="280" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="周二      可约   满约   满约   可约   可约   满约" vertex="1">
+          <mxGeometry height="44" width="770" x="280" y="628" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="周三      可约   可约   可约   可约   满约   可约" vertex="1">
+          <mxGeometry height="44" width="770" x="280" y="672" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" value="提示：界面突出‘预约查询 + 快速提交’，符合顾客端高频操作路径。" vertex="1">
+          <mxGeometry height="40" width="1130" x="280" y="736" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图4.12 药品库存管理界面设计图" id="y5_tgAmdjoRQxodsuAms">
+    <mxGraphModel dx="1800" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="110" value="药品库存管理界面设计（管理员端）" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="1360" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="112" value="管理员后台 | 药品与库存管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="1360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="仪表盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="114" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="115" value="药品管理（当前）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="库存管理（当前）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="117" value="公告管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="118" value="统计报表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120" value="库存概览" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="1130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="121" value="药品总数\n256" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="122" value="库存预警\n18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="123" value="今日入库\n42" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="230" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="124" value="今日出库\n35" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="230" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="125" value="检索条件：药品名称 [____] 分类 [____] 状态 [____]  [查询] [新增药品] [导出]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="1130" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="126" value="药品编码 | 名称 | 分类 | 规格 | 当前库存 | 预警值 | 状态 | 操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="406" width="1130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="127" value="D001 | 阿莫西林 | 抗生素 | 250mg*24 | 120 | 30 | 正常 | 入库 出库 编辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="448" width="1130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="128" value="D002 | 维生素B族 | 保健品 | 100片/瓶 | 22 | 20 | 预警 | 入库 出库 编辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="1130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="129" value="D003 | 生理盐水 | 注射液 | 500ml | 64 | 25 | 正常 | 入库 出库 编辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="532" width="1130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="130" value="D004 | 止血粉 | 外用药 | 30g | 9 | 15 | 缺货预警 | 入库 出库 编辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="574" width="1130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="131" value="库存变更记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="632" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="132" value="14:20 入库 D002 +40  操作人：admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="672" width="560" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="133" value="15:05 出库 D004 -12  操作人：admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="714" width="560" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="134" value="低库存预警面板" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="850" y="632" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="135" value="D004 止血粉：当前9，低于预警15（建议补货）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="850" y="672" width="560" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="136" value="D009 驱虫片：当前11，低于预警20（建议补货）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="850" y="714" width="560" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="137" value="提示：界面强调‘检索 + 明细表 + 出入库流水 + 预警’的管理员操作闭环。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="772" width="1130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图4.13 病历书写界面设计图" id="DQiJUoIh3tpMoLsqSrfN">
+    <mxGraphModel dx="1800" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="210" value="病历书写界面设计（医生端）" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="211" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="1360" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="212" value="医生工作台 | 就诊记录与病历书写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="1360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="213" value="待接诊列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="214" value="就诊记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="215" value="病历书写（当前）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="216" value="处方开具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="217" value="历史病历" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="220" value="当前接诊信息：宠物=布丁（猫）  主人=张三  预约时段=2026-02-27 14:00" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="1120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="221" value="历史就诊摘要" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="266" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="222" value="2026-01-12  皮肤过敏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="306" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="223" value="2025-11-03  体检复查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="348" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="224" value="2025-09-20  胃肠不适" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="225" value="病历编辑区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="266" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="226" value="主诉： [____________________________________________________]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="306" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="227" value="现病史： [__________________________________________________]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="354" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="228" value="检查结果： [________________________________________________]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="402" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="229" value="诊断结论： [________________________________________________]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="230" value="处理建议： [________________________________________________]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="498" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="231" value="医嘱说明： [________________________________________________]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="546" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="232" value="处方联动区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="266" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="233" value="药品：阿莫西林  数量：1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="306" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="234" value="药品：维生素B  数量：2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="348" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="235" value="[新增药品] [移除]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="390" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="236" value="病历状态：草稿  最后编辑：2026-02-27 15:20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="614" width="1120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="237" value="[保存病历]   [提交归档]   [同步生成处方]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="668" width="1120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="238" value="提示：界面突出‘历史信息对照 + 结构化病历录入 + 处方联动’的医生连续操作路径。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="736" width="1120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图4.11 预约挂号界面设计图" id="kA8zhKFpAEQ2s3x4JW5p">
+    <mxGraphModel dx="1783" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontSize=17;" value=" " vertex="1">
+          <mxGeometry height="800" width="1440" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=12;fontStyle=1;fontSize=17;" value="CustomerLayout 顶部导航： 首页 | 我的宠物 | 预约挂号 | 检查报告 | 我的订单" vertex="1">
+          <mxGeometry height="56" width="1440" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=12;fontSize=17;" value="页面标题：预约挂号" vertex="1">
+          <mxGeometry height="48" width="980" x="110" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=17;" value="按钮：新增预约" vertex="1">
+          <mxGeometry height="48" width="280" x="1210" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=10;fontSize=17;" value="预约列表（appointments）" vertex="1">
+          <mxGeometry height="44" width="940" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=17;" value="预约卡片：日期(月/日) + 宠物名(getPetName) + 时间(timeSlot) + 备注(remark) + 状态(getStatusText)" vertex="1">
+          <mxGeometry height="66" width="940" x="110" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=17;" value="状态为 PENDING 时显示操作按钮：取消" vertex="1">
+          <mxGeometry height="48" width="940" x="110" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=17;" value="空状态：暂无预约记录 + 按钮“立即预约”" vertex="1">
+          <mxGeometry height="54" width="940" x="110" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=17;" value="新增预约弹窗（t-dialog: 新增预约）" vertex="1">
+          <mxGeometry height="44" width="410" x="1080" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=17;" value="表单项1：选择宠物（t-select, petOptions）" vertex="1">
+          <mxGeometry height="54" width="410" x="1080" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=17;" value="表单项2：预约日期（t-date-picker）" vertex="1">
+          <mxGeometry height="54" width="410" x="1080" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=17;" value="表单项3：时间段（t-select, timeSlotOptions）\n09:00-10:00 ... 17:00-18:00" vertex="1">
+          <mxGeometry height="74" width="410" x="1080" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=17;" value="表单项4：备注（t-textarea, maxlength=200）" vertex="1">
+          <mxGeometry height="54" width="410" x="1080" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontStyle=1;fontSize=17;" value="确认提交：submit() -&amp;gt; createAppointment(payload) -&amp;gt; 状态默认 PENDING" vertex="1">
+          <mxGeometry height="62" width="410" x="1080" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=17;" value="数据加载：loadData() 同时请求 appointments 与 pets；卡片宠物名来自 pets 映射。" vertex="1">
+          <mxGeometry height="52" width="940" x="110" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontStyle=1;fontSize=17;" value="路由：/appointments（顾客端） | 组件：frontend/src/pages/customer/AppointmentPage.vue" vertex="1">
+          <mxGeometry height="42" width="1380" x="110" y="840" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图4.12 药品库存管理界面设计图" id="XmbGMB2eHaJpM1fHPdVk">
+    <mxGraphModel dx="1426" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="" vertex="1">
+          <mxGeometry height="800" width="1440" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=18;" value="MainLayout 左侧菜单（管理员）" vertex="1">
+          <mxGeometry height="46" width="260" x="100" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="药品管理（/admin/drugs）&lt;div&gt;入库流水（/admin/stock-in）&lt;/div&gt;&lt;div&gt;出库流水（/admin/stock-out）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="260" x="100" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=18;" value="A. 药品管理页面（DrugPage.vue）" vertex="1">
+          <mxGeometry height="44" width="1110" x="390" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="标题：药品管理 | 查询区：关键词输入 + 查询按钮 + 新增药品按钮" vertex="1">
+          <mxGeometry height="54" width="1110" x="390" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontStyle=1;fontSize=18;" value="列表（t-table columns）：ID | 名称 | 规格 | 单位 | 库存 | 操作" vertex="1">
+          <mxGeometry height="46" width="1110" x="390" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="操作列：编辑 | 删除" vertex="1">
+          <mxGeometry height="44" width="1110" x="390" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="新增/编辑弹窗字段：名称、规格、单位、库存、状态(启用/禁用)" vertex="1">
+          <mxGeometry height="52" width="1110" x="390" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=18;" value="B. 入库流水页面（StockInPage.vue）" vertex="1">
+          <mxGeometry height="44" width="540" x="390" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="标题：入库流水 | 按钮：刷新、新增入库" vertex="1">
+          <mxGeometry height="48" width="540" x="390" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="表格列：ID | 药品(drugId映射名称) | 数量 | 入库时间" vertex="1">
+          <mxGeometry height="52" width="540" x="390" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="新增入库弹窗字段：药品(t-select) | 数量" vertex="1">
+          <mxGeometry height="48" width="540" x="390" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=18;" value="C. 出库流水页面（StockOutPage.vue）" vertex="1">
+          <mxGeometry height="44" width="540" x="960" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="标题：出库流水 | 按钮：刷新、新增出库" vertex="1">
+          <mxGeometry height="48" width="540" x="960" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="表格列：ID | 药品(drugId映射名称) | 数量 | 出库时间" vertex="1">
+          <mxGeometry height="52" width="540" x="960" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontSize=18;" value="新增出库弹窗字段：药品(t-select) | 数量" vertex="1">
+          <mxGeometry height="48" width="540" x="960" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontStyle=1;fontSize=18;" value="路由与组件：/admin/drugs -&amp;gt; DrugPage.vue；/admin/stock-in -&amp;gt; StockInPage.vue；/admin/stock-out -&amp;gt; StockOutPage.vue" vertex="1">
+          <mxGeometry height="42" width="1400" x="100" y="840" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图4.13 病历书写界面设计图" id="BlUMzFZyEHjjdktpH1k_">
+    <mxGraphModel dx="1426" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="211" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontSize=19;" value="" vertex="1">
+          <mxGeometry height="800" width="1440" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="212" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontStyle=1;fontSize=19;" value="MainLayout 左侧菜单（医生/管理员）：就诊记录 | 病历管理 | 处方管理" vertex="1">
+          <mxGeometry height="70" width="300" x="100" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="220" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=10;fontSize=19;" value="页面标题：病历管理" vertex="1">
+          <mxGeometry height="44" width="1070" x="430" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="221" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="查询区（inline-form）：就诊ID 输入框 + 查询按钮 + 新增病历按钮" vertex="1">
+          <mxGeometry height="52" width="1070" x="430" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="222" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=10;fontSize=19;" value="病历列表（t-table）" vertex="1">
+          <mxGeometry height="42" width="1070" x="430" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="223" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="列定义：ID | 就诊(visitId 插槽显示 getVisitLabel) | 主诉 | 诊断 | 状态(getStatusText) | 操作" vertex="1">
+          <mxGeometry height="58" width="1070" x="430" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="224" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="操作：编辑 | 删除" vertex="1">
+          <mxGeometry height="42" width="1070" x="430" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="230" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=19;" value="新增/编辑病历弹窗（t-dialog）" vertex="1">
+          <mxGeometry height="42" width="1070" x="430" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="231" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="字段1：就诊ID（t-select, visitOptions；选项标签=宠物名/医生名）" vertex="1">
+          <mxGeometry height="54" width="1070" x="430" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="232" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="字段2：主诉（chiefComplaint）" vertex="1">
+          <mxGeometry height="46" width="1070" x="430" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="233" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="字段3：诊断（diagnosis）" vertex="1">
+          <mxGeometry height="46" width="1070" x="430" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="234" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="字段4：状态（status：DRAFT=草稿，COMPLETED=已完成）" vertex="1">
+          <mxGeometry height="50" width="1070" x="430" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="235" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontStyle=1;fontSize=19;" value="确认提交：submit() -&amp;gt; createMedicalRecord / updateMedicalRecord；保存成功后刷新列表" vertex="1">
+          <mxGeometry height="56" width="1070" x="430" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="240" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;fontSize=19;" value="辅助数据加载：onMounted 时加载 visits、pets、doctors，用于就诊下拉标签显示。" vertex="1">
+          <mxGeometry height="46" width="1070" x="430" y="724" as="geometry" />
+        </mxCell>
+        <mxCell id="241" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=8;fontStyle=1;fontSize=19;" value="路由：/admin/records | 组件：frontend/src/pages/MedicalRecordPage.vue" vertex="1">
+          <mxGeometry height="42" width="1400" x="100" y="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
