@@ -1587,6 +1587,9 @@
         <mxCell id="jr3fCA_TKtRH8NhH3j6N-76" parent="1" style="swimlane;startSize=40;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=14;" value="数据库" vertex="1">
           <mxGeometry height="1000" width="246" x="1862" y="4800" as="geometry" />
         </mxCell>
+        <mxCell id="jr3fCA_TKtRH8NhH3j6N-94" parent="jr3fCA_TKtRH8NhH3j6N-76" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=13;fillColor=#FFFFFF;strokeColor=#000000;" value="在数据库中写入购物车数据" vertex="1">
+          <mxGeometry height="46" width="140" x="18" y="818" as="geometry" />
+        </mxCell>
         <mxCell id="jr3fCA_TKtRH8NhH3j6N-77" parent="1" style="ellipse;html=1;shape=mxgraph.flowchart.start_2;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="1478" y="4860" as="geometry" />
         </mxCell>
@@ -1634,9 +1637,6 @@
         </mxCell>
         <mxCell id="jr3fCA_TKtRH8NhH3j6N-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=13;fillColor=#FFFFFF;strokeColor=#000000;" value="保存购物车" vertex="1">
           <mxGeometry height="36" width="160" x="1659" y="5623" as="geometry" />
-        </mxCell>
-        <mxCell id="jr3fCA_TKtRH8NhH3j6N-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=13;fillColor=#FFFFFF;strokeColor=#000000;" value="在数据库中写入购物车数据" vertex="1">
-          <mxGeometry height="46" width="140" x="1883" y="5620" as="geometry" />
         </mxCell>
         <mxCell id="jr3fCA_TKtRH8NhH3j6N-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=13;fillColor=#FFFFFF;strokeColor=#000000;" value="验证是否保存" vertex="1">
           <mxGeometry height="36" width="160" x="1659" y="5700" as="geometry" />
